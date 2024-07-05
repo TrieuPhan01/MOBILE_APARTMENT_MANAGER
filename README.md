@@ -15,3 +15,5 @@ Hello. This is the **Apartment Management**  mobile application, with the functi
 We will have 2 folders:
  - QuanLyChungCu_FE: Using React Native
  - QuanLyChungCu_BE: Using Python Django
+> **Note:** Please read README.md in each folder for details!
+ 
