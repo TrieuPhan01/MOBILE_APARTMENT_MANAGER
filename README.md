@@ -4,13 +4,13 @@ Hello. This is the **Apartment Management**  mobile application, with the functi
 
 
 
-## Clone Projects
+## 1. Clone Projects
 - Method 1: Open **Git Bash Here** and enter the command: git clone https://github.com/TrieuPhan01/MOBILE_APARTMENT_MANAGER.git
 - Method 2: Download File Zip
 
 
 
-## Open Projects 
+## 2. Open Projects 
 
 We will have 2 folders:
  - QuanLyChungCu_FE: Using React Native
