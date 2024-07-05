@@ -16,4 +16,11 @@ We will have 2 folders:
  - QuanLyChungCu_FE: Using React Native
  - QuanLyChungCu_BE: Using Python Django
 > **Note:** Please read README.md in each folder for details!
+
+## 3. Function description
+### admin
+- Perform management functions such as creating, editing and deleting permanent accounts. 
+- Confirm and change resident's order status
+- Manage resident feedback
+- View monthly revenue statistics and feedback statistics
  
