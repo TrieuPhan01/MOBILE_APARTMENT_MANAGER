@@ -18,9 +18,20 @@ We will have 2 folders:
 > **Note:** Please read README.md in each folder for details!
 
 ## 3. Function description
-### admin
+### Admin
 - Perform management functions such as creating, editing and deleting permanent accounts. 
 - Confirm and change resident's order status
 - Manage resident feedback
 - View monthly revenue statistics and feedback statistics
- 
+
+### Resident
+- Change password and avatar the first time you log in
+- Pay fees through 3 ways: Momo, Zalopay and bank transfer
+- Look up paid invoices
+- Register a parking card for a relative
+- Register to receive goods and change the status of the goods when they are successfully received in your locker 
+- Write feedback and send feedback letters to the board of admin
+- Carry out evaluation of survey forms
+- Chat online 
+- Look up directions to the apartment
+- Search for nearby telegram users (incomplete)
