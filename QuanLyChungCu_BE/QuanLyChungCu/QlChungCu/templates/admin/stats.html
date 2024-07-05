@@ -1,0 +1,51 @@
+{% extends 'admin/base_site.html' %}
+
+{% block content %}
+<h1>THỐNG KÊ THÔNG TIN </h1>
+
+<ul>
+    {% for c in admin-stats %}
+    <li><strong>{{ c.id }} - {{ c.name }}</strong> có {{ c.c }} bài học
+    </li>
+    {% endfor %}
+</ul>
+
+<div style="width: 50%">
+    <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    let labels = [];
+    let data = [];
+    {% for c in course_stats %}
+        labels.push('{{ c.name }}')
+        data.push({{ c.c }})
+    {% endfor %}
+
+    window.onload = function() {
+         const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Số lượng',
+        data: data,
+        borderWidth: 1,
+        backgroundColor: ['red', 'green', 'blue']
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+    }
+
+</script>
+{% endblock %}
