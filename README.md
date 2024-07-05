@@ -4,7 +4,7 @@ Hello. This is the **Apartment Management**  mobile application, with the functi
 
 
 
-## Clone Files
+## Clone Projects
 - Method 1: Open **Git Bash Here** and enter the command: git clone https://github.com/TrieuPhan01/MOBILE_APARTMENT_MANAGER.git
 - Method 2: Download File Zip
 
